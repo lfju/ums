@@ -1,37 +1,37 @@
 const constants = [
   {
     "id": "id1",
-    "name": "房间",
+    "name": "name1",
     "category": [
       {
         "category_id": 1,
-        "category_name": "大厅1号桌（4人桌）",
+        "category_name": "category1",
         "num":0,
       },
       {
         "category_id": 2,
-        "category_name": "雅1（10人桌）",
+        "category_name": "category2",
         "num": 0,
       },
       {
         "category_id": 3,
-        "category_name": "雅2（20人桌）",
+        "category_name": "category3",
         "num": 0,
       }
     ],
   },
   {
     "id": "id2",
-    "name": "热菜",
+    "name": "name2",
     "category": [
       {
         "category_id": 4,
-        "category_name": "热菜1",
+        "category_name": "category4",
         "num": 0,
       },
       {
         "category_id": 5,
-        "category_name": "热菜2",
+        "category_name": "category5",
         "num": 0,
       },
       {
@@ -92,21 +92,21 @@ const constants = [
   },
   {
     "id": "id3",
-    "name": "凉菜",
+    "name": "name3",
     "category": [
       {
         "category_id": 17,
-        "category_name": "凉菜1",
+        "category_name": "category17",
         "num": 0,
       },
       {
         "category_id": 18,
-        "category_name": "凉菜2",
+        "category_name": "category18",
         "num": 0,
       },
       {
         "category_id": 19,
-        "category_name": "凉菜3",
+        "category_name": "category19",
         "num": 0,
       }
     ],

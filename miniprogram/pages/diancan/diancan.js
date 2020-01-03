@@ -8,9 +8,6 @@ const LEFT_ITEM_HEIGHT = 50
 
 Page({
   data: {
-    content: '' ,  //评论输入框内容
-    score:5,    //评分
-
     //是否显示下面的购物车
     HZL_isCat:0,
     //购物车的商品
@@ -36,16 +33,6 @@ Page({
     HZL_eachRightItemToTop: [],       
     HZL_leftToTop: 0
   },
-
-  onContentChange: function(){
-
-
-  },
-  onScoreChange:function(){
-
-
-  },
-
   onLoad: function () {
     var that = this;
     //导航栏的文字
@@ -297,11 +284,5 @@ Page({
 
     return arr
   },
-
-  //评论输入框
-  onChange(event) {
-    // event.detail 为当前输入的值
-    console.log(event.detail);
-  }
 
 })
